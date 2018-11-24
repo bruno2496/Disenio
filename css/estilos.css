@@ -1,0 +1,64 @@
+.container{
+    margin: 0 auto;
+    
+}
+
+header{
+    background-color: black;
+    background-size: cover;
+    
+}
+
+ footer{
+    background-color: darkcyan;
+}
+.nav-link{
+    background-color: darkcyan;
+    margin: 5px
+}
+.nav-pills .nav-link.active{
+    background-color: darkslategray;
+}
+.bg-light{
+    background-color: darkcyan !important
+}
+.carousel{
+    height: auto;
+    overflow: hidden
+    
+}
+.navbar-toggler{
+    border:none
+}
+.navbar-brand img{
+    height: 40px}
+h1{
+    color: black;
+    
+        
+}
+.img-thumbnail{
+    border-color: darkcyan;
+}
+#seccion2{
+    border: 1px solid darkcyan;
+}
+#recuadro{
+    background-color: darkcyan;
+    
+}
+nav a{
+    color: white;
+    font-weight: bold
+}
+nav a:hover{
+    color: #333300
+}
+
+#seccion{
+    background-size: cover;
+    background-color: darkcyan;
+    text-align: left;
+    
+}
+
