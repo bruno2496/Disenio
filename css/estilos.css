@@ -4,23 +4,42 @@
 }
 
 header{
-    background-color: black;
+    background-color: #000;
     background-size: cover;
     
 }
-
- footer{
-    background-color: darkcyan;
+#headerLogo{
+    max-height: 250px;
 }
+ footer{
+    background-size: cover;
+    background-color: #6F8FE1;
+    padding: 10px;
+    margin-top: 10px;
+    padding-left: 150px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .nav-link{
-    background-color: darkcyan;
+    background-color: #6F8FE1;
     margin: 5px
 }
 .nav-pills .nav-link.active{
-    background-color: darkslategray;
+    background-color: #2C4EA6;
+    color: #6F8FE1;
 }
+
+
 .bg-light{
-    background-color: darkcyan !important
+    background-color: #BACDFE!important;
+    color: #6F8FE1;
 }
 .carousel{
     height: auto;
@@ -37,28 +56,84 @@ h1{
     
         
 }
+
+
 .img-thumbnail{
-    border-color: darkcyan;
+    border-color: #BACDFE;
 }
 #seccion2{
-    border: 1px solid darkcyan;
+    border: 1px solid #6F8FE1;
 }
 #recuadro{
-    background-color: darkcyan;
-    
+    background-color: #01b4d2;
+    color: whitesmoke;
+      
 }
+
+#recuadro h3{
+    font-size:20px;
+    text-align: left;
+}
+
+.consideraciones{
+    
+    font-size: 15px;
+}
+
 nav a{
     color: white;
     font-weight: bold
 }
 nav a:hover{
-    color: #333300
+    color: #BACDFE
 }
 
-#seccion{
+.seccion{
     background-size: cover;
-    background-color: darkcyan;
+    background-color: #6F8FE1;
     text-align: left;
-    
+    padding: 10px;
+    font-size: 2rem;
+    margin-top: 10px;
+    padding-left: 150px;
+    color: whitesmoke;
 }
 
+#sorteo img{
+    max-width: 400px;
+    background-size: cover;
+    background-color: #6F8FE1;
+    text-align: left;
+    padding: 10px;
+    font-size: 2rem;
+    margin-top: 10px;
+    padding-left: 150px;
+}
+
+#btnInscribirme{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.card-novedades{
+    width: 25%;
+}
+
+.card-novedades-2{
+    width:50%;
+}
+
+div.back-top .jv_scrollup {
+    background: none repeat scroll 0 0 #2C4EA6;
+    border-radius: 5px;
+    bottom: 15px;
+  
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 40px;
+    text-decoration: none;
+    }
